@@ -1,0 +1,38 @@
+#app{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.card{
+    width: 350px;
+  background-color: rgb(241, 243, 245);
+  border-radius:25px;
+  margin: 10px;
+ box-shadow: 10px 5px 5px  black;
+ }
+
+ h2, h3, h4{
+  position: relative;
+  left: 40px;
+  text-shadow: 5px 5px 1px lightblue, 0 0 0.1em black;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color:yellowgreen;
+  font-size: 25px;
+ 
+ }
+
+span{
+  position: relative;
+  left: 200px;
+  bottom: 50px;
+  font-size: 23px;
+  text-shadow: 2px 2px 2px grey;
+}
+
+i{
+  position: relative;
+  left:20px;
+  top: 45px;
+}
